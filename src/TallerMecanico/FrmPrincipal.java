@@ -12,33 +12,45 @@ public class FrmPrincipal extends JFrame {
     JLabel lblSubtitulo = new JLabel("Sistema de Gestión de Órdenes de Trabajo", SwingConstants.CENTER);
 
     JButton btnClientes = new JButton("Clientes");
+    JButton btnVehiculos = new JButton("Vehículos");
     JButton btnMecanicos = new JButton("Mecánicos");
+    JButton btnServicios = new JButton("Servicios");
+    JButton btnRepuestos = new JButton("Repuestos");
     JButton btnSalir = new JButton("Salir");
 
     public FrmPrincipal() {
         setTitle("Taller El Último Arranque");
-        setSize(420, 330);
+        setSize(520, 410);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setResizable(false);
         setLayout(null);
 
-        lblTitulo.setFont(new Font("Arial", Font.BOLD, 18));
-        lblTitulo.setBounds(20, 20, 380, 30);
+        lblTitulo.setFont(new Font("Arial", Font.BOLD, 20));
+        lblTitulo.setBounds(20, 20, 480, 30);
         add(lblTitulo);
 
-        lblSubtitulo.setBounds(20, 50, 380, 20);
+        lblSubtitulo.setBounds(20, 52, 480, 20);
         add(lblSubtitulo);
 
-        btnClientes.setBounds(110, 100, 200, 40);
-        btnMecanicos.setBounds(110, 150, 200, 40);
-        btnSalir.setBounds(110, 220, 200, 35);
+        btnClientes.setBounds(60, 100, 190, 40);
         add(btnClientes);
+        btnVehiculos.setBounds(270, 100, 190, 40);
+        add(btnVehiculos);
+        btnMecanicos.setBounds(60, 150, 190, 40);
         add(btnMecanicos);
+        btnServicios.setBounds(270, 150, 190, 40);
+        add(btnServicios);
+        btnRepuestos.setBounds(60, 200, 190, 40);
+        add(btnRepuestos);
+        btnSalir.setBounds(160, 315, 200, 35);
         add(btnSalir);
 
         btnClientes.addActionListener(e -> new FrmClientes().setVisible(true));
+        btnVehiculos.addActionListener(e -> new FrmVehiculos().setVisible(true));
         btnMecanicos.addActionListener(e -> new FrmMecanicos().setVisible(true));
+        btnServicios.addActionListener(e -> new FrmServicios().setVisible(true));
+        btnRepuestos.addActionListener(e -> new FrmRepuestos().setVisible(true));
         btnSalir.addActionListener(e -> System.exit(0));
     }
 }
