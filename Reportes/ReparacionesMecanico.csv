@@ -1,0 +1,6 @@
+﻿Mecánico,Especialidad,No. Orden,Placa,Cliente,Ingreso,Estado,Total
+Jorge Hernández,Electricidad,3,M321JKL,José Ramírez,12/10/2026,CANCELADA,70.00
+Luis Méndez,Motor,1,P123ABC,Carlos López,01/10/2026,FINALIZADA,415.00
+Luis Méndez,Motor,4,P456DEF,Carlos López,05/10/2026,CANCELADA,0.00
+Pedro Castillo,Frenos y suspensión,2,P789GHI,María González,08/10/2026,FINALIZADA,310.00
+Pedro Castillo,Frenos y suspensión,5,M321JKL,José Ramírez,17/10/2026,FINALIZADA,2385.00

@@ -17,6 +17,7 @@ public class FrmPrincipal extends JFrame {
     JButton btnServicios = new JButton("Servicios");
     JButton btnRepuestos = new JButton("Repuestos");
     JButton btnOrdenes = new JButton("Órdenes de trabajo");
+    JButton btnReportes = new JButton("Reportes");
     JButton btnSalir = new JButton("Salir");
 
     public FrmPrincipal() {
@@ -46,6 +47,8 @@ public class FrmPrincipal extends JFrame {
         add(btnRepuestos);
         btnOrdenes.setBounds(270, 200, 190, 40);
         add(btnOrdenes);
+        btnReportes.setBounds(60, 250, 400, 40);
+        add(btnReportes);
         btnSalir.setBounds(160, 315, 200, 35);
         add(btnSalir);
 
@@ -55,6 +58,7 @@ public class FrmPrincipal extends JFrame {
         btnServicios.addActionListener(e -> new FrmServicios().setVisible(true));
         btnRepuestos.addActionListener(e -> new FrmRepuestos().setVisible(true));
         btnOrdenes.addActionListener(e -> new FrmOrdenes().setVisible(true));
+        btnReportes.addActionListener(e -> new FrmReportes().setVisible(true));
         btnSalir.addActionListener(e -> System.exit(0));
     }
 }

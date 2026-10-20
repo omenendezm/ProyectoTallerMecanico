@@ -1,0 +1,6 @@
+﻿No. Orden,Placa,Cliente,Mecánico,Ingreso,Estado,Total
+3,M321JKL,José Ramírez,Jorge Hernández,12/10/2026,CANCELADA,70.00
+4,P456DEF,Carlos López,Luis Méndez,05/10/2026,CANCELADA,0.00
+1,P123ABC,Carlos López,Luis Méndez,01/10/2026,FINALIZADA,415.00
+2,P789GHI,María González,Pedro Castillo,08/10/2026,FINALIZADA,310.00
+5,M321JKL,José Ramírez,Pedro Castillo,17/10/2026,FINALIZADA,2385.00
